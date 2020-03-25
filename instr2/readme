@@ -1,0 +1,3 @@
+Zrealizowano model obiektowy wypożyczalni multimedialnej. 
+Każde medium posiada cechy klasy bazowej, a dodatkowo unikalną cechę właściwą do tego medium. 
+Zrealizowano również modele funkcji odpowiedzialnych za naliczanie kar za zwłokę oraz blokowania użytkowników.
