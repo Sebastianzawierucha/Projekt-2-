@@ -1,3 +1,7 @@
-Zrealizowano model obiektowy wypożyczalni multimedialnej. 
+Zrealizowano model obiektowy wypożyczalni multimedialnej.
+Zbudowana jest z klas podrzędncych audio, book, ebook, film, music, klasy głównej media, po której dziedziczą klasy
+podrzędne, oraz klasę client odpowiedzialną za obsługę klienta
 Każde medium posiada cechy klasy bazowej, a dodatkowo unikalną cechę właściwą do tego medium. 
-Zrealizowano również modele funkcji odpowiedzialnych za naliczanie kar za zwłokę oraz blokowania użytkowników.
+Każda klasa pochodna (film, ebook, audio, music, book) dziedziczy po klasie media.
+Zrealizowano również modele metod funkcji odpowiedzialnych za naliczanie kar za zwłokę oraz blokowania użytkowników
+w przypadku zalegania kwotą powyżej 10zł.
